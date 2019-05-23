@@ -153,24 +153,24 @@ const print = async (wherePrint, array) => {
   }
 };
 //------Imprimir líneas cronológicas-----
-window.onload = print(printMarvel, chronoMarvel);
-window.onload = print(printAlien, chronoAlien);
-window.onload = print(printPCaribbean, chronoPCaribbean);
-window.onload = print(printSaw, chronoSaw);
-window.onload = print(printStarWars, chronoStarWars);
-window.onload = print(printHarryPotter, chronoHarryPotter);
-window.onload = print(printTheConjuring, chronoTheConjuring);
-window.onload = print(printLordsOfRings, chronoLordsOfRings);
-window.onload = print(printXmen, chronoXmen);
+print(printMarvel, chronoMarvel);
+ print(printAlien, chronoAlien);
+ print(printPCaribbean, chronoPCaribbean);
+print(printSaw, chronoSaw);
+ print(printStarWars, chronoStarWars);
+ print(printHarryPotter, chronoHarryPotter);
+ print(printTheConjuring, chronoTheConjuring);
+ print(printLordsOfRings, chronoLordsOfRings);
+print(printXmen, chronoXmen);
 //------Imprimir líneas por estreno-----
-window.onload = print(printReMarvel, releaseMarvel);
-window.onload = print(printReAlien, releaseAlien);
+ print(printReMarvel, releaseMarvel);
+ print(printReAlien, releaseAlien);
 
 
-window.onload = print(printReStarWars, releaseStarWars);
+print(printReStarWars, releaseStarWars);
 
-window.onload = print(printReTheConjuring, releaseTheConjuring);
-window.onload = print(printReLordsOfRings, releaseLordsOfRings);
-window.onload = print(printReXmen, releaseXmen);
+print(printReTheConjuring, releaseTheConjuring);
+print(printReLordsOfRings, releaseLordsOfRings);
+print(printReXmen, releaseXmen);
 
 /* <span class="time-wrapper"><span class="time">${json.Year}</span></span> */
