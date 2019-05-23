@@ -102,7 +102,7 @@ const printReXmen = document.getElementById("releaseTimeXmen");
 // }
 const print = async (wherePrint, array) => {
   for (let i = 0; i < array.length; i++) {
-    let response = await fetch("http://www.omdbapi.com/?apikey=4bde1662&t=" + array[i])
+    let response = await fetch("https://www.omdbapi.com/?apikey=4bde1662&t=" + array[i])
     let json = await response.json();
 
     wherePrint.innerHTML +=
